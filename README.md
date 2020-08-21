@@ -1,6 +1,7 @@
 # Google drive loader for yi smart ip camera
 This tool was originally created by Oleksandr Porunov:
 https://github.com/porunov/xiaomi_gdrive
+
 I ported it on yi cam based on Allwinner platform.
 
 Google drive loader for yi smart ip camera (Allwinner based). yi_gdrive let you automatically upload your videos from xiaomi smart ip camera to your google drive account. Also it can automatically remove old files from your google drive account to prevent space exhaustion.
@@ -46,21 +47,21 @@ https://github.com/roleoroleo/yi-hack-Allwinner
 8. After turnung on a camera use telnet or ssh to connect to your camera:
 9. Go to the browser
 10. Create your Google Drive application and OAuth keys for Google Drive API (example tutorial: http://www.iperiusbackup.net/en/how-to-enable-google-drive-api-and-get-client-credentials/)
-  
+   
    Example:
-   1. Go to Google Api Console (https://console.developers.google.com/?hl=RU)
-   2. Click "Drive API"
-   3. Clieck "Create project" and create it (if don't have one)
-   4. Click "Enable"
-   5. Go to Credentials and add credentials to your project
+   - Go to Google Api Console (https://console.developers.google.com/?hl=RU)
+   - Click "Drive API"
+   - Clieck "Create project" and create it (if don't have one)
+   - Click "Enable"
+   - Go to Credentials and add credentials to your project
       1. Where will you be calling the API from? : Other UI (e.g. Windows, CLI tool)
       2. What data will you be accessing? : User data
       3. Click "What credentials do I need?"
       4. Name your credentials as you want
       5. Product name shown to users - use any name
       6. Click "Done"
-   6. Click on your credentials
-   7. Save your client id and client secret
+   - Click on your credentials
+   - Save your client id and client secret
 
 11. Go to your console back
 12. Run GDriveConf from /tmp/sd/yi-hack/gdrive folder to configure your Google Drive access:
