@@ -8,6 +8,7 @@ gdrive_bin_dir="/tmp/sd/yi-hack/bin/"
 gdrive_lib_dir="/tmp/sd/yi-hack/lib/"
 startup_sh="/tmp/sd/yi-hack/startup.sh"
 
+export PATH=$PATH:${gdrive_bin_dir}
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:${gdrive_lib_dir}
 
 renew_token(){
