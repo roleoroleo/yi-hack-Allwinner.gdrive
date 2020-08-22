@@ -1,16 +1,16 @@
-# Google drive loader for yi smart ip camera
+# Google Drive loader for yi smart ip camera
 This tool was originally created by Oleksandr Porunov:
 https://github.com/porunov/xiaomi_gdrive
 
 I ported it on yi cam based on Allwinner platform.
 
-Google drive loader for yi smart ip camera (Allwinner based). yi_gdrive let you automatically upload your videos from xiaomi smart ip camera to your google drive account. Also it can automatically remove old files from your google drive account to prevent space exhaustion.
+Google Drive loader for yi smart ip camera (Allwinner based). yi_gdrive let you automatically upload your videos from yi smart ip camera to your Google Drive account. Also it can automatically remove old files from your Google Drive account to prevent space exhaustion.
 If you want to run this tool, you need to hack the cam:
 https://github.com/roleoroleo/yi-hack-Allwinner
 
 ![ants_smart_webcam_ xiaomi](https://cloud.githubusercontent.com/assets/17673243/17768152/76d2a56a-653b-11e6-81db-522a29f9f1f2.png)
 
-### Step-by-step instruction for installing xiaomi_gdrive
+### Step-by-step instruction for installing yi_gdrive
 
 1. Turn off your camera and get microSD
 2. Download yi_gdrive
