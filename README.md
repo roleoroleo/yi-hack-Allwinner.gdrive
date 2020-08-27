@@ -93,4 +93,4 @@ https://github.com/roleoroleo/yi-hack-Allwinner
 How it works:
 The script in the loop will create the same folders as in the record folder and upload videos into Google Drive. After the reboot, or failure of the internet script continues normally send files. If you have enabled automatic remove, GDriveAutoremover will check your free space every 45 minutes. In case when disk space is not enough, the script will erase old videos (IMPORTANT: do not put anything extra in the folder which is designed for video because GDriveAutoremover can remove it if it considers that the disk space is not enough).
 
-This scripts were tested under 8.2.0 firmware and yi-hack-Allwinner 0.1.9
+This scripts were tested under model y20ga with firmware 8.2.0 and yi-hack-Allwinner 0.1.9
