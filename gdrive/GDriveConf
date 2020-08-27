@@ -201,7 +201,7 @@ echo "sh ${gdrive_dir}GDriveAutoremover" >> $startup_sh
 chmod +x ${gdrive_dir}GDriveUploader ${gdrive_dir}GDriveAutoremover ${gdrive_dir}JSON.sh
 chmod +x ${gdrive_bin_dir}curl
 chmod +x ${gdrive_lib_dir}libz.so*
-exit
+
 if [ -f ${gdrive_dir}gdrive_folder.index ]; then
 	rm ${gdrive_dir}gdrive_folder.index
 fi
