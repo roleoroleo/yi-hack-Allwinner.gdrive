@@ -49,7 +49,7 @@ https://github.com/roleoroleo/yi-hack-Allwinner
 10. Create your Google Drive application and OAuth keys for Google Drive API (example tutorial: http://www.iperiusbackup.net/en/how-to-enable-google-drive-api-and-get-client-credentials/)
    
    Example:
-   - Go to Google Api Console (https://console.developers.google.com/?hl=RU)
+   - Go to Google Api Console (https://console.developers.google.com/)
    - Click "Drive API"
    - Clieck "Create project" and create it (if don't have one)
    - Click "Enable"
